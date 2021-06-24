@@ -58,7 +58,7 @@ public class GenericStackImpl<T> {
     /*
      * To pp the element from the stack
      * */
-    public T pop(){
+    public T pop() {
         if(!isEmpty()){
             T removedElement = genericArray[top];
             genericArray[top] = null;
