@@ -40,7 +40,7 @@ public class FindMinMax {
 
         /*
         * Iterate the loop to find the min and max value,
-        * iterate the loop from top
+        * iterate the loop from i=2
         * */
 
         for(int i = 2; i < arr.length; i++){

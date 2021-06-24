@@ -1,0 +1,30 @@
+SOLID PRINCIPLE
+---------------
+1.S --->Single Responsibility Principle
+--------------------------------------{
+Each and every should have only one/single responsibility.
+example:- If we have Engine class then only what engine does will be there like:- start,stop etc;
+}
+
+2.O ---> Open/Closed Principle
+------------------------------{
+Open for implementation and closed for modification.
+example:- Like if we have create a class having three attribute/properties then after some time
+          we want to introduce new property/attribute. Then we need to create new class and implement
+          the older class and declare the new property/attribute there.This is how we achieve this principle
+}
+
+3.L ---> Liskov Substitution
+----------------------------{
+If class A is subtype of class B, then we should be able to replace B with A without
+disrupting the behaviour of our program/project.
+example:- Like if we have rectangle class having height and width then square is derived class means
+          sub class having same height and width. But this scenario we are violating the Liskov principle.
+          Because rectangle can be square but square cannot be rectangle so we can not replace the subclass with
+          parent class.
+
+}
+
+
+
+
